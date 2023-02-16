@@ -1,21 +1,31 @@
-import './Card.css'
-import ICard from '../../shared/ICard'
+import "./Card.css";
 
-const Card = (card: ICard) => {
-    console.log(card.imagem)
-    return (
-        <div className='container'>
-            <a href={card.link}>
-            <div className='container-imagem'>
-              <img src={card.imagem} alt={`Imagem da formação ${card.nomeFormacao}`} />  
-            </div>
-            </a> 
-            <div className='area-texto'>
-                <p className='titulo'>{card.nomeFormacao}</p>
-                <p className='observacao'>{card.observacao}</p>
-            </div>
-        </div>
-    )
+export interface CardProps {
+  data: {
+    nomeFormacao: string;
+    observacao: string;
+    link: string;
+    imagem: string;
+  };
 }
+
+const Card = ({ data }: CardProps) => {
+  return (
+    <div className="container">
+      <a href={data.link} target="_blank" rel="noreferrer" >
+        <div className="container-imagem">
+          <img
+            src={data.imagem}
+            alt={`Imagem da formação ${data.nomeFormacao}`}
+          />
+        </div>
+      <div className="area-texto">
+        <p className="titulo">{data.nomeFormacao}</p>
+        <p className="observacao">{data.observacao}</p>
+      </div>
+      </a>
+    </div>
+  );
+};
 
 export default Card;
