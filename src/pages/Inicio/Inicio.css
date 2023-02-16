@@ -1,4 +1,7 @@
-.fileiraCards{
-    display: flex;
-    justify-content: space-between;
+.fileiraCards {
+  padding-top: 28px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: hidden;
 }
