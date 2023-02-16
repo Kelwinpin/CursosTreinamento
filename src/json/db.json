@@ -1,0 +1,56 @@
+[
+    {
+        "nomeFormacao":"DevOps",
+        "link":"https://cursos.alura.com.br/formacao-primeiros-passos-devops",
+        "observacao":"Recomendo começar apatir do módulo 2 se já houver conhecimento em como os componentes de um computado funcionam, pois o primeiro módulo se trata de uma parte mais básica e relacionada ao hardware.",
+        "imagem":"devops.png"
+    },
+    {
+        "nomeFormacao":"AWS(Cloud computer)",
+        "link":"https://cursos.alura.com.br/formacao-amazon-web-services",
+        "observacao":"Um extra importante de se conhecer, pois os serviços da FÁCIL estão hospedados em um ambiente de nuvem na AWS.",
+        "imagem":"devops.png"
+    },
+    {
+        "nomeFormacao":"React",
+        "link":"https://cursos.alura.com.br/formacao-react-javascript",
+        "observacao":"Menos o módulo lidando com arquivos estáticos.",
+        "imagem":"devops.png"
+    },
+    {
+        "nomeFormacao":"Test em React",
+        "link":"https://cursos.alura.com.br/course/react-testando-componentes",
+        "observacao":"Testes utilizando react-testing-library e jest.",
+        "imagem":"devops.png"
+    },
+    {
+        "nomeFormacao":"Axios",
+        "link":"https://cursos.alura.com.br/course/react-integrando-projeto-react-apis",
+        "observacao":"Axios é uma biblioteca de cliente HTTP baseado em promessas para o node.js utilizada em nosso projeta para integrar as API's ao front-end.",
+        "imagem":"devops.png"
+    },
+    {
+        "nomeFormacao":"Typescript",
+        "link":"https://cursos.alura.com.br/formacao-typescript",
+        "observacao":"Caso não houver conhecimento em node.js recomendo a formação javascript backend pois o typescript nada mais é do que um super set feito pela microsoft do node js, então a maioria dos conceitos do typescript está ligado ao node.js.",
+        "imagem":"devops.png"
+    },
+    {
+        "nomeFormacao":"Oracle",
+        "link":"https://cursos.alura.com.br/formacao-oracle-database-sql-plsql",
+        "observacao":"Se houver conhecimento em sql previo pode-se pular o primeiro módulo.",
+        "imagem":"devops.png"
+    },
+    {
+        "nomeFormacao":"Docker",
+        "link":"https://cursos.alura.com.br/formacao-docker-dca",
+        "observacao":"Somente o módulo 1 e 2, pois se trata do conteúdo essencial para o projeto sendo os módulos 3 e 4 preparação para o certificado.",
+        "imagem":"devops.png"
+    },
+    {
+        "nomeFormacao":"Javascript Backend",
+        "link":"https://cursos.alura.com.br/formacao-js-backend",
+        "observacao":"Fundamental ver os módulos de objetos e arrays, pois mostram funções nativas no js e como ele funciona debaixo dos panos.",
+        "imagem":"frontend.png"
+    }
+]

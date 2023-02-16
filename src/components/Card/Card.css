@@ -1,0 +1,40 @@
+.container{
+    display:block;
+    background-color: #D8D8D9;
+    flex-direction: column;
+    width: 160px;
+    height: auto;
+    margin: 12px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+
+.container-imagem img{
+    width: 230px;
+    height: 200px;
+}
+
+.container-imagem a{
+    text-decoration: none;
+}
+
+.area-texto{
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.observacao{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
