@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding: 8px;
-  margin: 8px;
+  margin: 24px;
   border-radius: 4px;
   max-width: 250px;
   min-width: 250px;
@@ -19,7 +19,7 @@
 
 .container-imagem {
   display: flex;
-  height: 200px;
+  height: 180px;
 }
 
 .container-imagem img {

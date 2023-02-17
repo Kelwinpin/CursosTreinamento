@@ -8,13 +8,11 @@ const Inicio = () => {
   return (
     <body>
       <Header/>
-      <section>
         <div className="fileiraCards">
           {cards.map((card) => {
             return <Card key={card.nomeFormacao} data={card} />;
           })}
         </div>        
-      </section>
       <Footer/>
     </body>
   );

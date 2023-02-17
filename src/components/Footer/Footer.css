@@ -1,8 +1,7 @@
 .rodape{
     background-color: #006d9d;
     display: flex;
-    padding: 4px;
-    margin-top: 12px;
+    flex-wrap: wrap;
 }
 
 .rodape p{
