@@ -1,7 +1,12 @@
+body{
+  background-color: #d1d3d5;
+}
+
+
 .fileiraCards {
   padding-top: 28px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   overflow-y: hidden;
 }
