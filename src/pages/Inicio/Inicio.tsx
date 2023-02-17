@@ -1,6 +1,7 @@
-import Card from "../../components/Card";
-import Header from "../../components/Header";
-import cards from "../../json/db.json";
+import Footer from "components/Footer";
+import Card from "components/Card";
+import Header from "components/Header";
+import cards from "json/db.json";
 import "./Inicio.css";
 
 const Inicio = () => {
@@ -14,6 +15,7 @@ const Inicio = () => {
           })}
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

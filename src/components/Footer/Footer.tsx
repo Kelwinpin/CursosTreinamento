@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = ()=>{
     return(
         <footer className='rodape'>
-            <p>@Todos os direitos reservados</p>
+            <p>@Kelwin Pinheiro - repo <a href="https://github.com/Kelwinpin/CursosTreinamento">GitHub</a></p>
         </footer>
     )
 }

@@ -1,8 +1,20 @@
 .rodape{
-    background-color: gainsboro;
+    background-color: #d1d3d5;
+    display: flex;
+    padding: 4px;
+    margin-top: 12px;
 }
 
 .rodape p{
     font-weight: 900;
     font-size: 20px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #71c7f0;
+}
+
+.rodape a:hover{
+    color: #86E3B2;
 }
