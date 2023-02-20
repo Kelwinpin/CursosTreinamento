@@ -1,0 +1,26 @@
+.tags{
+    display: flex;
+    float: left;
+    margin: 12px;
+}
+
+.tagsSelect{
+   border:1px solid #D2D2D3;
+   font-size: 16px;
+   border-radius: 4px;
+   box-shadow: 4px 0 4px 0 rgba(0,0,0,0.6);
+}
+
+.tagsSelect:hover{
+    border-color: #71c7f0;
+}
+
+.tagsSelect:focus{
+    box-shadow: 4px 2px 4px 2px #71c7f0;
+}
+
+.tagsSelect option{
+    font-weight: 200;
+}
+
+

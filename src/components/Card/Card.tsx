@@ -6,6 +6,7 @@ export interface CardProps {
     observacao: string;
     link: string;
     imagem: string;
+    tag:string;
   };
 }
 

@@ -2,18 +2,29 @@ import Footer from "components/Footer";
 import Card from "components/Card";
 import Header from "components/Header";
 import cards from "json/db.json";
+import SelectTags from "components/SelectTags";
 import "./Inicio.css";
+import { useState } from "react";
 
 const Inicio = () => {
+  const [itens, setItens] = useState(cards)
+  const tags = [...new Set(cards.map((card) => card.tag))]
+
+   const filtraTags = (tag:string) => {
+    const cardsFiltrados = cards.filter((card) => { return card.tag === tag });
+    setItens(cardsFiltrados);
+   }
+
   return (
     <body>
-      <Header/>
-        <div className="fileiraCards">
-          {cards.map((card) => {
-            return <Card key={card.nomeFormacao} data={card} />;
-          })}
-        </div>        
-      <Footer/>
+      <Header />
+      <SelectTags setItens={setItens} filtraTags={filtraTags} tags={tags.sort()}/>
+      <div className="fileiraCards">
+        {itens.map((item) => {
+          return <Card key={item.nomeFormacao} data={item} />;
+        })}
+      </div>
+      <Footer />
     </body>
   );
 };

@@ -3,54 +3,63 @@
     "nomeFormacao": "DevOps",
     "link": "https://cursos.alura.com.br/formacao-primeiros-passos-devops",
     "observacao": "Recomendo começar apatir do módulo 2 se já houver conhecimento em como os componentes de um computado funcionam, pois o primeiro módulo se trata de uma parte mais básica e relacionada ao hardware.",
-    "imagem": "https://i.im.ge/2023/02/16/apmtYm.devops.png"
+    "imagem": "https://i.im.ge/2023/02/16/apmtYm.devops.png",
+    "tag":"Outros"
   },
   {
     "nomeFormacao": "AWS(Cloud computer)",
     "link": "https://cursos.alura.com.br/formacao-amazon-web-services",
     "observacao": "Um extra importante de se conhecer, pois os serviços da FÁCIL estão hospedados em um ambiente de nuvem na AWS.",
-    "imagem": "https://i.im.ge/2023/02/16/apmmjp.aws.png"
+    "imagem": "https://i.im.ge/2023/02/16/apmmjp.aws.png",
+    "tag":"Outros"
   },
   {
     "nomeFormacao": "React",
     "link": "https://cursos.alura.com.br/formacao-react-javascript",
     "observacao": "Menos o módulo lidando com arquivos estáticos.",
-    "imagem": "https://i.im.ge/2023/02/16/apmPUf.react.png"
+    "imagem": "https://i.im.ge/2023/02/16/apmPUf.react.png",
+    "tag":"Frontend"
   },
   {
     "nomeFormacao": "Test em React",
     "link": "https://cursos.alura.com.br/course/react-testando-componentes",
     "observacao": "Testes utilizando react-testing-library e jest.",
-    "imagem": "https://i.im.ge/2023/02/16/apmNo1.test.png"
+    "imagem": "https://i.im.ge/2023/02/16/apmNo1.test.png",
+    "tag":"Frontend"
   },
   {
     "nomeFormacao": "Axios",
     "link": "https://cursos.alura.com.br/course/react-integrando-projeto-react-apis",
     "observacao": "Axios é uma biblioteca de cliente HTTP baseado em promessas para o node.js utilizada em nosso projeta para integrar as API's ao front-end.",
-    "imagem": "https://i.im.ge/2023/02/16/apmwWP.axios.png"
+    "imagem": "https://i.im.ge/2023/02/16/apmwWP.axios.png",
+    "tag":"Frontend"
   },
   {
     "nomeFormacao": "Typescript",
     "link": "https://cursos.alura.com.br/formacao-typescript",
     "observacao": "Caso não houver conhecimento em node.js recomendo a formação javascript backend pois o typescript nada mais é do que um super set feito pela microsoft do node js, então a maioria dos conceitos do typescript está ligado ao node.js.",
-    "imagem": "https://i.im.ge/2023/02/16/apm5zC.typescript.png"
+    "imagem": "https://i.im.ge/2023/02/16/apm5zC.typescript.png",
+    "tag":"Backend"
   },
   {
     "nomeFormacao": "Oracle",
     "link": "https://cursos.alura.com.br/formacao-oracle-database-sql-plsql",
     "observacao": "Se houver conhecimento em sql previo pode-se pular o primeiro módulo.",
-    "imagem": "https://i.im.ge/2023/02/16/apmjOq.oracle.png"
+    "imagem": "https://i.im.ge/2023/02/16/apmjOq.oracle.png",
+    "tag":"Outros"
   },
   {
     "nomeFormacao": "Docker",
     "link": "https://cursos.alura.com.br/formacao-docker-dca",
     "observacao": "Somente o módulo 1 e 2, pois se trata do conteúdo essencial para o projeto sendo os módulos 3 e 4 preparação para o certificado.",
-    "imagem": "https://i.im.ge/2023/02/16/apmCsW.docker.png"
+    "imagem": "https://i.im.ge/2023/02/16/apmCsW.docker.png",
+    "tag":"Outros"
   },
   {
     "nomeFormacao": "Javascript Backend",
     "link": "https://cursos.alura.com.br/formacao-js-backend",
     "observacao": "Fundamental ver os módulos de objetos e arrays, pois mostram funções nativas no js e como ele funciona debaixo dos panos.",
-    "imagem": "https://i.im.ge/2023/02/16/apmyBr.nodejs.png"
+    "imagem": "https://i.im.ge/2023/02/16/apmyBr.nodejs.png",
+    "tag":"Backend"
   }
 ]
