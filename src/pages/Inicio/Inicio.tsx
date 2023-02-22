@@ -11,7 +11,8 @@ const Inicio = () => {
   const tags = [...new Set(cards.map((card) => card.tag))]
 
   const filtraTags = (selectedItem: string) => {
-      setItens(cards.filter(card =>  !selectedItem || card.tag === selectedItem ))
+      const cardsFiltrados = cards.filter((card) => { return !selectedItem || card.tag === selectedItem });
+      setItens(cardsFiltrados)
   } 
 
   return (

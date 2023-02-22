@@ -1,5 +1,5 @@
+import MiniCardTags from "components/MiniCardTags";
 import "./Card.css";
-
 export interface CardProps {
   data: {
     nomeFormacao: string;
@@ -23,6 +23,9 @@ const Card = ({ data }: CardProps) => {
       <div className="area-texto">
         <p className="titulo">{data.nomeFormacao}</p>
         <p className="observacao">{data.observacao}</p>
+      </div>
+      <div className="area-tags">
+        <p>Tags:<MiniCardTags tag={data.tag}/></p>
       </div>
       </a>
     </div>

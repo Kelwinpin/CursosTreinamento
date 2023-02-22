@@ -41,6 +41,13 @@
   text-align: center;
 }
 
+.area-tags p{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .titulo {
   font-size: 1.1em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
