@@ -10,15 +10,15 @@ const Inicio = () => {
   const [itens, setItens] = useState(cards)
   const tags = [...new Set(cards.map((card) => card.tag))]
 
-   const filtraTags = (tag:string) => {
-    const cardsFiltrados = cards.filter((card) => { return card.tag === tag });
-    setItens(cardsFiltrados);
-   }
+  const filtraTags = (tag: string) => {
+      const cardsFiltrados = cards.filter((card) => { return card.tag === tag });
+      {cardsFiltrados.length === 0 ? setItens(cards) : setItens(cardsFiltrados)}
+  } 
 
   return (
     <body>
       <Header />
-      <SelectTags setItens={setItens} filtraTags={filtraTags} tags={tags.sort()}/>
+      <SelectTags handler={filtraTags} itens={tags.sort()} />
       <div className="fileiraCards">
         {itens.map((item) => {
           return <Card key={item.nomeFormacao} data={item} />;

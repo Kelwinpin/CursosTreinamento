@@ -1,20 +1,17 @@
-import cards from 'json/db.json'
 import './SelectTags.css'
 
 interface ITags {
-  filtraTags: (a: string) => void,
-  setItens: React.ComponentState,
-  tags:string[]
+  handler: (selectedItem: string) => void,
+  itens:string[]
 }
 
 
-const SelectTags = ({filtraTags, setItens, tags}: ITags) => {
+const SelectTags = ({handler, itens}: ITags) => {
   return (
     <div className={'tags'}>
-      <select className={'tagsSelect'}>
-        <option value=""></option>
-        {tags.map(tag => (<option key={tag} onClick={() => filtraTags(tag)}>{tag}</option>))}
-        <option value="todos" onClick={() => setItens(cards)}>Todos</option>
+      <select className={'tagsSelect'} onChange={(evento)=>handler(evento.target.value)}>
+        <option value="">Todos</option>
+        {itens.map(tag => (<option key={tag} value={tag}>{tag}</option>))}
       </select>
     </div>
   )
