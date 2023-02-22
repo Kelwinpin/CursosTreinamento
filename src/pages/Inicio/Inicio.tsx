@@ -10,9 +10,8 @@ const Inicio = () => {
   const [itens, setItens] = useState(cards)
   const tags = [...new Set(cards.map((card) => card.tag))]
 
-  const filtraTags = (tag: string) => {
-      const cardsFiltrados = cards.filter((card) => { return card.tag === tag });
-      {cardsFiltrados.length === 0 ? setItens(cards) : setItens(cardsFiltrados)}
+  const filtraTags = (selectedItem: string) => {
+      setItens(cards.filter(card =>  !selectedItem || card.tag === selectedItem ))
   } 
 
   return (
