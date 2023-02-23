@@ -8,7 +8,6 @@
   border-radius: 4px;
   max-width: 250px;
   min-width: 250px;
-
 }
 
 .container:hover {
@@ -39,6 +38,12 @@
   padding-top: 2em;
   justify-content: center;
   text-align: center;
+}
+
+.area-tags{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .area-tags p{

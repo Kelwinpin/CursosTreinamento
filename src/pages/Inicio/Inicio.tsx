@@ -8,10 +8,11 @@ import { useState } from "react";
 
 const Inicio = () => {
   const [itens, setItens] = useState(cards)
-  const tags = [...new Set(cards.map((card) => card.tag))]
+  const listaTags = cards.map((card)=>card.tag.flatMap((tag) => tag))
+  const tags = [...new Set(listaTags.flatMap((tag) => tag).map((tag) => tag))]
 
   const filtraTags = (selectedItem: string) => {
-      const cardsFiltrados = cards.filter((card) => { return !selectedItem || card.tag === selectedItem });
+      const cardsFiltrados = cards.filter((card) => { return !selectedItem || card.tag.includes(selectedItem)});
       setItens(cardsFiltrados)
   } 
 

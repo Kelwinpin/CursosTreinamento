@@ -11,7 +11,7 @@ const SelectTags = ({handler, itens}: ITags) => {
     <div className={'tags'}>
       <select className={'tagsSelect'} onChange={(evento)=>handler(evento.target.value)}>
         <option value="">Todos</option>
-        {itens.map(tag => (<option key={tag} value={tag}>{tag}</option>))}
+        {itens.map(tag => (<option value={tag}>{tag}</option>))}
       </select>
     </div>
   )

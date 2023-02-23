@@ -6,7 +6,7 @@ export interface CardProps {
     observacao: string;
     link: string;
     imagem: string;
-    tag:string;
+    tag:string[];
   };
 }
 
@@ -25,7 +25,7 @@ const Card = ({ data }: CardProps) => {
         <p className="observacao">{data.observacao}</p>
       </div>
       <div className="area-tags">
-        <p>Tags:<MiniCardTags tag={data.tag}/></p>
+        <p>Tags:{data.tag.map(tag => <MiniCardTags tag={tag}/>)}</p>
       </div>
       </a>
     </div>
