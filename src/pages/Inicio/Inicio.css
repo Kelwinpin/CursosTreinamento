@@ -1,5 +1,7 @@
 body{
   background-color: #d1d3d5;
+  display: flex;
+  flex-direction:column;
   justify-content: center;
 }
 

@@ -18,14 +18,14 @@ const Inicio = () => {
 
   return (
     <body>
-      <Header />
+      <Header/>
       <SelectTags handler={filtraTags} itens={tags.sort()} />
       <div className="fileiraCards">
         {itens.map((item) => {
           return <Card key={item.nomeFormacao} data={item} />;
         })}
       </div>
-      <Footer />
+      <footer><Footer/></footer>
     </body>
   );
 };
