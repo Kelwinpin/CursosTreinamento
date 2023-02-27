@@ -1,7 +1,8 @@
-import Inicio from './pages/Inicio'
+import Router from "routes"
+
 const App = () =>{
     return(
-        <Inicio/>
+        <Router/>
     )
 }
 
