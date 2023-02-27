@@ -5,19 +5,35 @@ module.exports = {
         "node": true
     },
     "extends": [
-        "plugin:react/recommended",
-        "standard-with-typescript"
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
     ],
     "overrides": [
     ],
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "@typescript-eslint"
     ],
     "rules": {
-        quotes:["error", "single"]
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ]
     }
 }
