@@ -14,7 +14,7 @@ const SelectTags = ({ handler, itens }: ITags) => {
             >
                 <option value="">Todos</option>
                 {itens.map((tag) => (
-                    <option value={tag}>{tag}</option>
+                    <option value={tag} key={tag}>{tag}</option>
                 ))}
             </select>
         </div>

@@ -32,7 +32,7 @@ const Card = ({ data }: CardProps) => {
                             <p>
                                 Tags:
                                 {data.tag.map((tag) => (
-                                    <MiniCardTags tag={tag} />
+                                    <MiniCardTags tag={tag} key={tag}/>
                                 ))}
                             </p>
                         </div>
