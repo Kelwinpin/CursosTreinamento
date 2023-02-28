@@ -1,13 +1,13 @@
-import MiniCardTags from "components/MiniCardTags"
-import "./Card.css"
+import MiniCardTags from "components/MiniCardTags";
+import "./Card.css";
 export interface CardProps {
   data: {
-    nomeFormacao: string
-    observacao: string
-    link: string
-    imagem: string
-    tag: string[]
-  }
+    nomeFormacao: string;
+    observacao: string;
+    link: string;
+    imagem: string;
+    tag: string[];
+  };
 }
 
 const Card = ({ data }: CardProps) => {
@@ -40,7 +40,7 @@ const Card = ({ data }: CardProps) => {
         </a>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

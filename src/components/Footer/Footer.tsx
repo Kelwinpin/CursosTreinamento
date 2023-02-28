@@ -1,4 +1,4 @@
-import "./Footer.css"
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="https://github.com/Kelwinpin/CursosTreinamento">GitHub</a>
       </p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

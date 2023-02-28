@@ -1,7 +1,7 @@
-import "./MiniCardTags.css"
+import "./MiniCardTags.css";
 
 interface IMiniCard {
-  tag: string
+  tag: string;
 }
 
 const MiniCardTags = ({ tag }: IMiniCard) => {
@@ -9,7 +9,7 @@ const MiniCardTags = ({ tag }: IMiniCard) => {
     <div className="miniCard">
       <p>{tag}</p>
     </div>
-  )
-}
+  );
+};
 
-export default MiniCardTags
+export default MiniCardTags;

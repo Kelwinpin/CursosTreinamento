@@ -1,6 +1,6 @@
-import Inicio from "pages/Inicio"
-import { Route, Routes } from "react-router"
-import { BrowserRouter } from "react-router-dom"
+import Inicio from "pages/Inicio";
+import { Route, Routes } from "react-router";
+import { BrowserRouter } from "react-router-dom";
 
 const Router = () => {
   return (
@@ -9,7 +9,7 @@ const Router = () => {
         <Route index element={<Inicio />} />
       </Routes>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default Router
+export default Router;
