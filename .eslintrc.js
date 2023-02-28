@@ -31,7 +31,7 @@ module.exports = {
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double"],
-    "semicolon":["error", "always"],
+    "semicolon":["off", "always"],
     "semi": ["error", "always"],
     "prettier/prettier": ["error"],
     "react/react-in-jsx-scope": "off"
