@@ -1,3 +1,3 @@
-import SelectTags from "./SelectTags"; 
+import SelectTags from "./SelectTags";
 
-export default SelectTags
+export default SelectTags;

@@ -1,3 +1,3 @@
 import MiniCardTags from "./MiniCardTags";
 
-export default MiniCardTags
+export default MiniCardTags;

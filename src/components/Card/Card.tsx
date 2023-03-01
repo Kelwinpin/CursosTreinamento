@@ -14,8 +14,7 @@ const Card = ({ data }: CardProps) => {
   return (
     <>
       <div className="container">
-        <a href={data.link} target="_blank" rel="noreferrer" >
-
+        <a href={data.link} target="_blank" rel="noreferrer">
           <section>
             <div className="container-imagem">
               <img
@@ -30,12 +29,16 @@ const Card = ({ data }: CardProps) => {
               <p>{data.observacao}</p>
             </div>
             <div className="area-tags">
-              <p>Tags:{data.tag.map(tag => <MiniCardTags tag={tag} />)}</p>
+              <p>
+                Tags:
+                {data.tag.map((tag) => (
+                  <MiniCardTags tag={tag} key={tag} />
+                ))}
+              </p>
             </div>
           </section>
         </a>
       </div>
-
     </>
   );
 };
