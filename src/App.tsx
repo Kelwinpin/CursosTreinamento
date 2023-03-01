@@ -1,8 +1,7 @@
-import Inicio from './pages/Inicio'
-const App = () =>{
-    return(
-        <Inicio/>
-    )
-}
+import Router from "routes";
 
-export default App
+const App = () => {
+  return <Router />;
+};
+
+export default App;

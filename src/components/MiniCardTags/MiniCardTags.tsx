@@ -1,15 +1,15 @@
-import "./MiniCardTags.css"
+import "./MiniCardTags.css";
 
-interface IMiniCard{
-    tag:string
+interface IMiniCard {
+  tag: string;
 }
 
-const MiniCardTags = ({tag}:IMiniCard) =>{
-    return(
-        <div className="miniCard">
-            <p>{tag}</p>
-        </div>
-    )
-}
+const MiniCardTags = ({ tag }: IMiniCard) => {
+  return (
+    <div className="miniCard">
+      <p>{tag}</p>
+    </div>
+  );
+};
 
-export default MiniCardTags
+export default MiniCardTags;
