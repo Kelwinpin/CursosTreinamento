@@ -2,7 +2,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header className="cabecalho">
+    <header role="header" className="cabecalho">
       <h1>FÁCILFlIX</h1>
     </header>
   );

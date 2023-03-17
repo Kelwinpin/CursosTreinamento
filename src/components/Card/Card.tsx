@@ -12,34 +12,32 @@ export interface CardProps {
 
 const Card = ({ data }: CardProps) => {
   return (
-    <>
-      <div className="container">
-        <a href={data.link} target="_blank" rel="noreferrer">
-          <section>
-            <div className="container-imagem">
-              <img
-                src={data.imagem}
-                alt={`Imagem da formação ${data.nomeFormacao}`}
-              />
-            </div>
-            <div className="titulo">
-              <p>{data.nomeFormacao}</p>
-            </div>
-            <div className="observacao">
-              <p>{data.observacao}</p>
-            </div>
-            <div className="area-tags">
-              <p>
-                Tags:
-                {data.tag.map((tag) => (
-                  <MiniCardTags tag={tag} key={tag} />
-                ))}
-              </p>
-            </div>
-          </section>
-        </a>
-      </div>
-    </>
+    <div className="container">
+      <a href={data.link} target="_blank" rel="noreferrer">
+        <section>
+          <div className="container-imagem">
+            <img
+              src={data.imagem}
+              alt={`Imagem da formação ${data.nomeFormacao}`}
+            />
+          </div>
+          <div className="titulo">
+            <p>{data.nomeFormacao}</p>
+          </div>
+          <div className="observacao">
+            <p>{data.observacao}</p>
+          </div>
+          <div className="area-tags">
+            <span>
+              Tags:
+              {data.tag.map((tag) => (
+                <MiniCardTags tag={tag} key={tag} />
+              ))}
+            </span>
+          </div>
+        </section>
+      </a>
+    </div>
   );
 };
 
