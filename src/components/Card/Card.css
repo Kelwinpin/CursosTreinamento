@@ -47,13 +47,14 @@
   bottom: 0;
 }
 
-.area-tags p{
+.area-tags span{
   display: flex;
   flex-direction: row; 
   flex-wrap: wrap;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 80%;
+  margin-bottom: 8px;
 }
 
 .titulo {
