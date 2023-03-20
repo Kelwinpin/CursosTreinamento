@@ -7,7 +7,7 @@ interface ITags {
 
 const SelectTags = ({ handler, itens }: ITags) => {
   return (
-    <div className={"tags"}>
+    <div role="tagsSelector" className={"tags"}>
       <select
         className={"tagsSelect"}
         onChange={(evento) => handler(evento.target.value)}

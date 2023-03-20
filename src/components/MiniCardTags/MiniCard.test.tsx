@@ -6,7 +6,7 @@ const data = {
 };
 
 describe("Teste no componente minicard", () => {
-  it("Renderizando componete MiniCArdTags", () => {
+  it("Renderizando componete MiniCardTags", () => {
     render(<MiniCardTags tag={data.tag} />);
     expect(screen.getByRole("tagQueue")).toBeDefined();
   });
