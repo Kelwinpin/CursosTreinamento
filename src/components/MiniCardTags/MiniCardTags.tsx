@@ -6,7 +6,7 @@ interface IMiniCard {
 
 const MiniCardTags = ({ tag }: IMiniCard) => {
   return (
-    <div className="miniCard">
+    <div role="tagQueue" className="miniCard">
       <p>{tag}</p>
     </div>
   );
