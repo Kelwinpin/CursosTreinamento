@@ -68,5 +68,12 @@
     "observacao": "Fundamental para o projeto, preste bastante pois no segundo módulo na parte 2 fala sobre git flow, o padrão usado por nós no Github.",
     "imagem": "https://i.im.ge/2023/02/28/77cNoD.github.png",
     "tag":["Backend", "Frontend"]
+  },
+  {
+    "nomeFormacao": "Arquitetura do projeto",
+    "link": "Player",
+    "observacao": "Demonstração de como funciona nossa arquitetura e como utilizar a métodologia DDT.",
+    "imagem": "https://i.im.ge/2023/03/11/74t8rC.hexagonoTech.png",
+    "tag":["Outros"]
   }
 ]

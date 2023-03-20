@@ -1,0 +1,10 @@
+iframe{
+    height: 90vh;
+}
+
+.playerSection{
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    color: black;
+}
